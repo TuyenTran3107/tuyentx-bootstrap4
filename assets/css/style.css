@@ -272,6 +272,17 @@
     margin-bottom: 0;
 }
 
+@media (max-width: 1199.98px) {
+    .work-process .item-content {
+        padding: 0 14px;
+    }
+
+    .work-process .box-item {
+        margin-bottom: 30px;
+    }
+
+}
+
 /* Section-5 */
 .section-5 {
     background-image   : url(../image/fun-facts-bg.png);
@@ -336,12 +347,13 @@
 }
 
 .testimonials .testimonials-item {
-    background   : #fff;
-    box-shadow   : 0 2px 48px 0 rgba(0, 0, 0, 0.10);
-    padding      : 10px;
-    border-radius: 12px;
-    height       : 100%;
-    width        : 98%;
+    background      : #fff;
+    box-shadow      : 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    padding         : 10px;
+    border-radius   : 12px;
+    /* height       : 100%; */
+    width           : 100%;
+    margin-bottom   : 30px;
 }
 
 .testimonials .testimonials-content {
@@ -389,6 +401,7 @@
     padding      : 10px;
     text-align   : center;
     border-radius: 12px;
+    margin-bottom: 30px;
 }
 
 .plans .plans-item .plans-content {
@@ -470,7 +483,7 @@
 }
 
 .blog .blog-content {
-    padding: 30px;
+    padding: 12px;
 }
 
 .blog .blog-content .blog-title {
